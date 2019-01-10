@@ -1,8 +1,11 @@
 import React from "react";
 
 class Cards extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
-    return <h1>{React.children}</h1>;
+    return <h1>{this.props.children}</h1>;
   }
 }
 
