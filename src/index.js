@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Cards from "./Cards";
+import Card from "./Card";
 
 import "./styles.css";
 
