@@ -23,7 +23,7 @@ class Card extends React.Component {
       .firstElementChild;
     console.log(value);
     cardImg.style.transform = `rotate(${(value / 100) * 360 + 360}deg) 
-    scale(${(value / 100) * 0.5 + 1})`;
+    scale(${(value / 100) * 1 + 1})`;
   }
 
   render() {
